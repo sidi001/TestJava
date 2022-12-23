@@ -1,20 +1,20 @@
 # TestJava
 
 ## Le contexte
-• Le système sera initialisé avec un ensemble de ranges labélisés. Tous les
+* Le système sera initialisé avec un ensemble de ranges labélisés. Tous les
 ranges sont de type “closed-open” : [a..b)
-• Un range est composé d’une borne inférieure (lower bound) et d’une borne
+* Un range est composé d’une borne inférieure (lower bound) et d’une borne
 supérieure (upper bound) et contient tous les éléments supérieur ou égal à
 ‘a’ et strictement inférieur à ‘b’.
-• L’ensemble des ranges est connus au départ et ne change pas au cours de
+* L’ensemble des ranges est connus au départ et ne change pas au cours de
 l’exercice. La taille peut varier entre 1 & 10_000.
-• Le but de l’exercice est d’implémenter la méthode : marchingLabels(item:
+* Le but de l’exercice est d’implémenter la méthode : marchingLabels(item:
 Item) : Label[]
-• La méthode marchingLabels peut être appellée plusieurs fois (entre 1 et
+* La méthode marchingLabels peut être appellée plusieurs fois (entre 1 et
 1_000_000 de fois)
 
 ## Example:
-• ranges : (A -> {0, 6}, B -> {5, 7})
+* ranges : (A -> {0, 6}, B -> {5, 7})
 – matchingLabels(2) -> [A]
 – matchingLabels(5) -> [A, B]
 – matchingLabels(6) -> [B]
