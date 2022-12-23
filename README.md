@@ -23,12 +23,12 @@ Item) : Label[]
 ## Installation:
 Le projet est créé avec Maven. Vous avez déjà les dependences dont vous aurez besoin dans le fichier pom.xml. assurez vous d'avoir les dependences déjà importées dans votre projet.
 Si vous utilisez intellij: 
-1. créer un nouveau "run/debug configuration" de type Application.
+1. Créer un nouveau "run/debug configuration" de type Application.
 2. Si vous avez l'erreur "Error: Module not specified" lorsque vous essayez d'ajouter un module au classPath. Alors fermer le popup de configuration et partez dans file->porject structure-> Module, ensuite vous specifier le chemin principal du projet. Puis il va vous demander de generer tous les autres dependences supplementaire avec Maven.
 3. Ensuite, revenir sur le "run/debug configuration" pour ajouter le module que vous venez de créer. 
 4. Enregistez et vous pouvez lancez le main dans src/main/java/Marching.java ou les tests dans src/test/java/TestRamgeSeries.java
 
 ## Test:
-il y'a des méthodes de test dans le fichier src/test/java/TestRamgeSeries.java prenant en compte au moins tous les cas cités dans l'exemple de l'exercice et le cas où on aura un liste de range null.
+Il y'a des méthodes de test dans le fichier src/test/java/TestRamgeSeries.java prenant en compte au moins tous les cas cités dans l'exemple de l'exercice et le cas où on aura un liste de range null.
 
 Et c'est tout bon :)
